@@ -1,0 +1,8 @@
+# OS / IDE Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Top-level Environment Variables
+.env
