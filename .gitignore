@@ -1,7 +1,10 @@
 # OS / IDE Files
 .DS_Store
 .idea/
-.vscode/
+
+.vscode/*
+!.vscode/extensions.json
+
 *.swp
 
 # Top-level Environment Variables
