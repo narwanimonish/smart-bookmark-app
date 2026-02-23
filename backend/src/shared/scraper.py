@@ -16,7 +16,9 @@ def scrape_metadata(url):
         # Helper to safely get meta content
         def get_meta(props):
             for p in props:
-                tag = soup.find("meta", property=p) or soup.find("meta", attrs={"name": p})
+                tag = soup.find("meta", property=p) or soup.find(
+                    "meta", attrs={"name": p}
+                )
                 if tag and tag.get("content"):
                     return tag["content"]
             return None
